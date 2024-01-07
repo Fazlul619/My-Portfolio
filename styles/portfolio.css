@@ -86,6 +86,7 @@ nav a {
 main {
   max-width: 1140px;
   margin: 0 auto;
+  margin-bottom: 110px;
 }
 main section {
   margin-top: 130px;
@@ -159,4 +160,82 @@ main section {
 .download-cv {
   text-align: center;
   margin-top: 50px;
+}
+.section-descriptions {
+  color: #474747;
+
+  width: 562px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.footers {
+  max-width: 1140px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-title {
+  color: #181818;
+  /* text-align: center; */
+
+  font-size: 35px;
+
+  font-weight: 700;
+}
+.footer-descriptions {
+  color: #474747;
+
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name-input {
+  width: 461px;
+  height: 64px;
+  padding-left: 15px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0px;
+}
+.email-input {
+  width: 461px;
+  height: 64px;
+  padding-left: 15px;
+  border: 0px;
+  border-radius: 5px;
+  background: #fff;
+}
+.message-input {
+  width: 461px;
+  min-height: 180px;
+  border-radius: 5px;
+  padding-left: 15px;
+  background: #fff;
+  border: 0px;
+  padding-top: 15px;
+  resize: none;
+}
+input[type="submit"] {
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
 }
